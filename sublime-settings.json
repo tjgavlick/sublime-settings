@@ -1,4 +1,5 @@
 {
+  "bold_folder_labels": true,
   "color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
@@ -26,14 +27,13 @@
     "*.scssc",
     "*.mp4"
   ],
-  "font_face": "Operator Mono Book",
-  "font_size": 14,
-  "line_padding_top": 1,
-  "line_padding_bottom": 1,
-  "bold_folder_labels": true,
+  "font_face": "Operator Mono Lig Book",
+  "font_size": 13,
   "ignored_packages":
   [
   ],
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
   "open_files_in_new_window": false,
   "scroll_past_end": true,
   "tab_size": 2,
