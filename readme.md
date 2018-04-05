@@ -39,7 +39,7 @@ And added the following to cover some JS language features:
     <key>name</key>
     <string>Ligs</string>
     <key>scope</key>
-    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, punctuation.definition.comment.js</string>
+    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.comment.js</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
