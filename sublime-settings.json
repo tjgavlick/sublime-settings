@@ -27,7 +27,7 @@
     "*.scssc",
     "*.mp4"
   ],
-  "font_face": "Operator Mono Lig Book",
+  "font_face": "Operator Mono SSm Lig Book",
   "font_size": 13,
   "ignored_packages":
   [
