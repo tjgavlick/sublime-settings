@@ -16,7 +16,7 @@ Specify italics by inserting the following block inside a setting's inner `<dict
 
 I've added this to the following items in Agila Oceanic Next:
 
-- Language methods: `variable.language`
+- Keyword, Storage: `keyword, storage.type, storage.modifier`
 - Attributes: `entity.other.attribute-name`
 
 And added the following to cover some JS keywords:
