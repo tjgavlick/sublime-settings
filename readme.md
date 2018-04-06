@@ -26,7 +26,7 @@ And added the following to cover some JS language features:
 ```
 <dict>
     <key>name</key>
-    <string>JavaScript keywords</string>
+    <string>JavaScript italics</string>
     <key>scope</key>
     <string>constant.language.null.js, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.undefined.js, constant.language.nan.js, support.type.object.dom.js, support.class.builtin.js, comment.block.js, comment.line.double-slash.js</string>
     <key>settings</key>
@@ -37,9 +37,9 @@ And added the following to cover some JS language features:
 </dict>
 <dict>
     <key>name</key>
-    <string>Ligs</string>
+    <string>JavaScript italics overrides</string>
     <key>scope</key>
-    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.comment.js</string>
+    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.comment.js, keyword.operator.ternary.js</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
