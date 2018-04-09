@@ -70,7 +70,7 @@ And to the color highlighter override XML:
     <key>name</key>
     <string>CSS italics overrides</string>
     <key>scope</key>
-    <string>keyword.other.parent-selector.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, variable.parameter.sass, keyword.operator.css, keyword.other.unit.css, variable.parameter.css</string>
+    <string>keyword.other.parent-selector.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, variable.parameter.sass, keyword.operator.css, keyword.other.unit.css, variable.parameter.css, keyword.control.interpolation.sass</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
