@@ -16,12 +16,16 @@ Specify italics by inserting the following block inside a setting's inner `<dict
 <string>italic</string>
 ```
 
-I've added this to the following items in Agila Oceanic Next:
+I've added this to the following items in the base Agila Oceanic Next .thTheme:
 
 - Keyword, Storage: `keyword, storage.type, storage.modifier`
 - Attributes: `entity.other.attribute-name`
 
-And added the following to cover some JS language features:
+And in User/Color Highlighter/themes/Agila Oceanic Next.tmTheme:
+
+- Keyword, Storage: `keyword, storage.type, storage.modifier`
+
+And added the following to the base theme to cover some JS language features:
 
 ```
 <dict>
@@ -47,6 +51,34 @@ And added the following to cover some JS language features:
     </dict>
 </dict>
 ```
+
+And to the color highlighter override XML:
+
+```
+<dict>
+    <key>name</key>
+    <string>CSS italics</string>
+    <key>scope</key>
+    <string>entity.other.pseudo-class.css.sass, comment.line.sass, comment.block.css.sass, entity.other.pseudo-class.css, comment.line.css, comment.block.css</string>
+    <key>settings</key>
+    <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>CSS italics overrides</string>
+    <key>scope</key>
+    <string>keyword.other.parent-selector.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, variable.parameter.sass, keyword.operator.css, keyword.other.unit.css, variable.parameter.css</string>
+    <key>settings</key>
+    <dict>
+        <key>fontStyle</key>
+        <string>normal</string>
+    </dict>
+</dict>
+```
+
 
 ## Ligatures
 
