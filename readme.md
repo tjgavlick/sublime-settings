@@ -30,9 +30,9 @@ And added the following to the base theme to cover some JS language features:
 ```
 <dict>
     <key>name</key>
-    <string>JavaScript italics</string>
+    <string>Additional italics</string>
     <key>scope</key>
-    <string>constant.language.null.js, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.undefined.js, constant.language.nan.js, support.type.object.dom.js, support.class.builtin.js, comment.block.js, comment.line.double-slash.js</string>
+    <string>constant.language.null.js, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.undefined.js, constant.language.nan.js, support.type.object.dom.js, support.class.builtin.js, comment.block.js, comment.line.double-slash.js, entity.other.pseudo-class.css.sass, entity.other.pseudo-element.css</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
@@ -41,9 +41,9 @@ And added the following to the base theme to cover some JS language features:
 </dict>
 <dict>
     <key>name</key>
-    <string>JavaScript italics overrides</string>
+    <string>Additional non-italics</string>
     <key>scope</key>
-    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.comment.js, keyword.operator.ternary.js, keyword.control.cshtml</string>
+    <string>keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.assignment.js, keyword.operator.assignment.augmented.js, keyword.operator.arithmetic.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.comment.js, keyword.operator.ternary.js, keyword.control.cshtml, keyword.operator.cs, meta.function-call.cs, keyword.operator.asp, entity.other.attribute-name.class.css.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, entity.other.attribute-name.id.css.sass, keyword.operator.assignment.cs, keyword.operator.assignment.variable.cs, keyword.operator.bitwise.js</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
@@ -59,7 +59,7 @@ And to the color highlighter override XML:
     <key>name</key>
     <string>CSS italics</string>
     <key>scope</key>
-    <string>entity.other.pseudo-class.css.sass, comment.line.sass, comment.block.css.sass, entity.other.pseudo-class.css, comment.line.css, comment.block.css</string>
+    <string>entity.other.pseudo-class.css.sass, comment.line.sass, comment.block.css.sass, entity.other.pseudo-class.css, comment.line.css, comment.block.css, entity.other.pseudo-element.css</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
@@ -70,7 +70,7 @@ And to the color highlighter override XML:
     <key>name</key>
     <string>CSS italics overrides</string>
     <key>scope</key>
-    <string>keyword.other.parent-selector.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, variable.parameter.sass, keyword.operator.css, keyword.other.unit.css, variable.parameter.css, keyword.control.interpolation.sass</string>
+    <string>keyword.other.parent-selector.sass, keyword.operator.css.sass, keyword.other.unit.css.sass, variable.parameter.sass, keyword.operator.css, keyword.other.unit.css, variable.parameter.css, keyword.control.interpolation.sass, punctuation.definition.entity.css</string>
     <key>settings</key>
     <dict>
         <key>fontStyle</key>
