@@ -27,6 +27,7 @@
     "*.scssc",
     "*.mp4"
   ],
+  "binary_file_patterns": [".svn/", ".git/", "node_modules/", "bower_components/"],
   "font_face": "Operator Mono SSm Lig Book",
   "font_size": 13,
   "ignored_packages":
